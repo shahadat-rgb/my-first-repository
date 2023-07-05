@@ -1,0 +1,75 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    /* background-color: rgba(166, 176, 184, 0.338); */
+}
+.title{
+    width: 100%;
+}
+.title h1{
+    font-size: 30px;
+    color: black;
+}
+.title span{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.659);
+}
+.titleDetails{
+    margin-top: 20px;
+}
+.titleDetails p{
+    font-size: 16px;
+    color: gray;
+}
+.btn{
+    border: 2px solid #FF724A;
+    border-radius: 5px;
+    padding: 25px 45px;
+    color:#FF724A;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn:hover{
+    background-color:#FF724A;
+    color: white;
+}
+
+.doctorPic{
+    width: 100%;
+}
+.doctorPic img{
+   width: 100%;
+   border-radius: 300px 0px 0px 300px;
+}
+.logo{
+    display: inline;
+    text-align: left;
+
+}
+.navbar li{
+  list-style-type: none;
+  margin: 0px 20px;
+  display: inline;
+  font-size:18px;
+  color:gray;
+  cursor: pointer;
+}
+.navbar li:hover{
+    border-bottom: 4px solid #FF724A;
+    padding-bottom: 5px;
+}
+.loginBtn{
+    border: 2px solid #FF724A;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color:#FF724A;
+    font-size: 20px;
+    background-color: white;
+}
+.loginBtn:hover{
+    background-color:#FF724A;
+    color: white;
+}
